@@ -37,10 +37,22 @@
 // console.log(alan(4,6));
 
 
-//! 1.soru
+//! 2.soru
 
 // const kareAl = (x,y) =>(x+y)**2;
 // const kupAl = (x,y) =>(x+y)**3;
 // const usAl = (x,y) =>(x**2)+(y**2);
 
 // console.log(usAl(3,5));
+
+
+//! 3.soru
+
+// const aYıl = +prompt("yıl değeriniz giriniz:");
+
+// if(aYıl/4 && aYıl/100 || aYıl/400) {
+//     console.log(`${aYıl} artık yıldır`);
+
+// }else{
+//     console.log(`${aYıl} artık yıl değildir`);
+// }
