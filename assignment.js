@@ -35,3 +35,12 @@
 // const alan = (a,h) => (a*h)/2;
 
 // console.log(alan(4,6));
+
+
+//! 1.soru
+
+// const kareAl = (x,y) =>(x+y)**2;
+// const kupAl = (x,y) =>(x+y)**3;
+// const usAl = (x,y) =>(x**2)+(y**2);
+
+// console.log(usAl(3,5));
