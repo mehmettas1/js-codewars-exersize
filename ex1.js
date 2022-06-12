@@ -9,3 +9,11 @@
 // Samples:
 // bump("_nnnnnnn_n__n______nn__nn_nnn") => "Car Dead"
 // bump("______n___n_") => "Woohoo!"
+
+
+//! solution of the problem
+
+function bump(str){
+    let car =str.split("").filter(a => a == "n");
+    return car.length <= 15 ? "Woohoo!" : "Car Dead";
+}
