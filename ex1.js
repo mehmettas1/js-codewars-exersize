@@ -43,10 +43,25 @@
 //   console.log(duplicate);
   
 
-function findMax(arr){
-    return Math.max(...arr);
+// function findMax(arr){
+//     return Math.max(...arr);
 
-};
-let arr =[36,32,34,45];
-let maxNumber = findMax(arr);
-console.log(maxNumber);
+// };
+// let arr =[36,32,34,45];
+// let maxNumber = findMax(arr);
+// console.log(maxNumber);
+
+
+var obj = { a: 1, b: 2, c: 3 };
+var arr = Object.keys(obj);
+console.log(arr);
+
+
+var obj = { a: 1, b: 2, c: 3 };
+var arr = Object.values(obj);
+console.log(arr);
+
+
+var obj = { a: 1, b: 2, c: 3 };
+var arr = Object.entries(obj);
+console.log(arr);
