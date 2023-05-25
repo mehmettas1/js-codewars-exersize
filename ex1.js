@@ -17,3 +17,36 @@
 //     let car =str.split("").filter(a => a == "n");
 //     return car.length <= 15 ? "Woohoo!" : "Car Dead";
 // }
+
+// Soru: Verilen bir dizide (array) tekrar eden bir elemanı bulma algoritması yazın.
+
+
+
+//  function findDuplicate(arr) {
+//     var count = {};
+    
+//     for (var i = 0; i < arr.length; i++) {
+//       var element = arr[i];
+      
+//       if (count[element]) {
+//         return element;
+//       } else {
+//         count[element] = true;
+//       }
+//     }
+    
+//     return null;
+//   }
+  
+//   var arr = [2, 3, 4, 5, 2, 6, 7, 4];
+//   var duplicate = findDuplicate(arr);
+//   console.log(duplicate);
+  
+
+function findMax(arr){
+    return Math.max(...arr);
+
+};
+let arr =[36,32,34,45];
+let maxNumber = findMax(arr);
+console.log(maxNumber);
