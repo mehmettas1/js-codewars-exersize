@@ -57,14 +57,14 @@
 // console.log(arr);
 
 
-var obj = { a: 1, b: 2, c: 3 };
-var arr = Object.values(obj);
-console.log(arr);
+// var obj = { a: 1, b: 2, c: 3 };
+// var arr = Object.values(obj);
+// console.log(arr);
 
 
-var obj = { a: 1, b: 2, c: 3 };
-var arr = Object.entries(obj);
-console.log(arr);
+// var obj = { a: 1, b: 2, c: 3 };
+// var arr = Object.entries(obj);
+// console.log(arr);
 
 // tek sayıların toplammı
 function toplamTekSayilar(dizi) {
