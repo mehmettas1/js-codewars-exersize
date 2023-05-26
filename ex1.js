@@ -52,9 +52,9 @@
 // console.log(maxNumber);
 
 
-var obj = { a: 1, b: 2, c: 3 };
-var arr = Object.keys(obj);
-console.log(arr);
+// var obj = { a: 1, b: 2, c: 3 };
+// var arr = Object.keys(obj);
+// console.log(arr);
 
 
 var obj = { a: 1, b: 2, c: 3 };
@@ -65,3 +65,21 @@ console.log(arr);
 var obj = { a: 1, b: 2, c: 3 };
 var arr = Object.entries(obj);
 console.log(arr);
+
+// tek sayıların toplammı
+function toplamTekSayilar(dizi) {
+  let toplam = 0;
+  
+  for (let i = 0; i < dizi.length; i++) {
+    if (dizi[i] % 2 === 1) {
+      toplam += dizi[i];
+    }
+  }
+  
+  return toplam;
+}
+
+// Kullanım örneği:
+const sayilar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const tekSayilarinToplami = toplamTekSayilar(sayilar);
+console.log("Tek sayıların toplamı:", tekSayilarinToplami);
