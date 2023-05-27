@@ -66,20 +66,37 @@
 // var arr = Object.entries(obj);
 // console.log(arr);
 
-// tek sayıların toplammı
-function toplamTekSayilar(dizi) {
+function tekSayılarınToplami(dizi) {
   let toplam = 0;
-  
-  for (let i = 0; i < dizi.length; i++) {
-    if (dizi[i] % 2 === 1) {
+
+  for(let i = 0; i<dizi.length; i++ ){
+    if( dizi[i] % 2 ===1  ){
       toplam += dizi[i];
     }
   }
-  
   return toplam;
+
+};
+
+const sayilar = [25,32,12,11,15];
+const sonuc = tekSayılarınToplami(sayilar)
+console.log( "tek sayilarin toplamı :", sonuc);
+
+
+
+//!! Soru: Bir dizedeki karakterleri tersine çeviren bir JavaScript algoritması yazın
+
+function tersDizi(dizi) {
+  let toplam  = dizi.split("").reverse().join("").toUpperCase();
+ return toplam;
 }
 
-// Kullanım örneği:
-const sayilar = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-const tekSayilarinToplami = toplamTekSayilar(sayilar);
-console.log("Tek sayıların toplamı:", tekSayilarinToplami);
+const metin = "hello world";
+const tersKelime = tersDizi(metin)
+
+console.log( "ters kelime sonucu :", tersKelime);
+
+
+
+
+

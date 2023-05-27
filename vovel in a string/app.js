@@ -14,7 +14,11 @@ const countVovels = (kelime) => {
       (e) => e == "a" || e == "e" || e == "o" || e == "u" || e == "i"
     ).length;
   render(len);
+  input.value = "";
 };
+
 const render = (word) => {
   display.innerHTML = `There are ${word} vovels in ${input.value}`;
 };
+
+
