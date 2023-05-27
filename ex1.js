@@ -18,38 +18,20 @@
 //     return car.length <= 15 ? "Woohoo!" : "Car Dead";
 // }
 
-// Soru: Verilen bir dizide (array) tekrar eden bir elemanı bulma algoritması yazın.
+//! Soru: Verilen bir dizide (array) tekrar eden bir elemanı bulma algoritması yazın.
 
 
 
-//  function findDuplicate(arr) {
-//     var count = {};
-    
-//     for (var i = 0; i < arr.length; i++) {
-//       var element = arr[i];
-      
-//       if (count[element]) {
-//         return element;
-//       } else {
-//         count[element] = true;
-//       }
-//     }
-    
-//     return null;
-//   }
-  
-//   var arr = [2, 3, 4, 5, 2, 6, 7, 4];
-//   var duplicate = findDuplicate(arr);
-//   console.log(duplicate);
+
   
 
-// function findMax(arr){
-//     return Math.max(...arr);
+function findMax(arr){
+    return Math.max(...arr);
 
-// };
-// let arr =[36,32,34,45];
-// let maxNumber = findMax(arr);
-// console.log(maxNumber);
+};
+let arr =[36,32,34,45];
+let maxNumber = findMax(arr);
+console.log(maxNumber);
 
 
 // var obj = { a: 1, b: 2, c: 3 };
@@ -66,35 +48,37 @@
 // var arr = Object.entries(obj);
 // console.log(arr);
 
-function tekSayılarınToplami(dizi) {
-  let toplam = 0;
+//!! Soru: Bir dizedeki teksayıların toplamını bulan bir JavaScript algoritması yazın
 
-  for(let i = 0; i<dizi.length; i++ ){
-    if( dizi[i] % 2 ===1  ){
-      toplam += dizi[i];
-    }
-  }
-  return toplam;
+// function tekSayılarınToplami(dizi) {
+//   let toplam = 0;
 
-};
+//   for(let i = 0; i<dizi.length; i++ ){
+//     if( dizi[i] % 2 ===1  ){
+//       toplam += dizi[i];
+//     }
+//   }
+//   return toplam;
 
-const sayilar = [25,32,12,11,15];
-const sonuc = tekSayılarınToplami(sayilar)
-console.log( "tek sayilarin toplamı :", sonuc);
+// };
+
+// const sayilar = [25,32,12,11,15];
+// const sonuc = tekSayılarınToplami(sayilar)
+// console.log( "tek sayilarin toplamı :", sonuc);
 
 
 
 //!! Soru: Bir dizedeki karakterleri tersine çeviren bir JavaScript algoritması yazın
 
-function tersDizi(dizi) {
-  let toplam  = dizi.split("").reverse().join("").toUpperCase();
- return toplam;
-}
+// function tersDizi(dizi) {
+//   let toplam  = dizi.split("").reverse().join("").toUpperCase();
+//  return toplam;
+// }
 
-const metin = "hello world";
-const tersKelime = tersDizi(metin)
+// const metin = "hello world";
+// const tersKelime = tersDizi(metin)
 
-console.log( "ters kelime sonucu :", tersKelime);
+// console.log( "ters kelime sonucu :", tersKelime);
 
 
 
