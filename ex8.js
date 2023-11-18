@@ -37,3 +37,22 @@ function descendingOrder(n) {
   
  let tas =descendingOrder("123456789")
   console.log( tas );
+//////////**************////////////****** */ */
+  function flickSwitch(arr) {
+    let shouldReturnTrue = true;
+    let result = [];
+  
+    for (let item of arr) {
+      if (item === "flick") {
+        shouldReturnTrue = !shouldReturnTrue;
+      }
+      result.push(shouldReturnTrue);
+    }
+  
+    return result;
+  }
+
+
+
+console.log(flickSwitch(  ['codewars', 'flick', 'code', 'wars']))
+  
