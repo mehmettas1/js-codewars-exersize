@@ -21,7 +21,6 @@
 // selectionSort(elements);
 // console.log(elements); // Sıralanmış liste
 
-
 //2) Write a program that finds the summation of every number from 1 to num. The number will always be a positive integer greater than 0.
 
 // For example (Input -> Output):
@@ -29,18 +28,16 @@
 // 2 -> 3 (1 + 2)
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
-
 function summation(num) {
-    let total = 0;
-    for (let i = 1; i <= num; i++) {
-        total += i;
-    }
-    return total;
+  let total = 0;
+  for (let i = 1; i <= num; i++) {
+    total += i;
+  }
+  return total;
 }
- 
+
 console.log(summation(2)); // 3
 console.log(summation(8)); // 36
-
 
 // 3)  Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
@@ -51,19 +48,13 @@ console.log(summation(8)); // 36
 
 // Input: 123456789 Output: 987654321
 
-function descendingOrder(n) {
-    // Sayıyı dizeye dönüştürerek rakamları elde et
-    let digits = n.toString().split('');
-    
-    // Rakamları azalan sırada sırala
-    let sortedDigits = digits.sort((a, b) => parseInt(b) - parseInt(a));
-    
-    // Sıralı rakamları birleştirerek sayıya dönüştür
-    let result = parseInt(sortedDigits.join(''));
-    
-    return result;
-  }
-  
- let tas =descendingOrder("123456789")
-  console.log( tas );
+function seta(e) {
+    let digit = e.toString().split("")
 
+    let sortDigit = digit.sort((a,b)=>parseInt(b)-parseInt(a));
+
+    let result = parseInt(sortDigit.join(""))
+
+return result
+}
+console.log(seta(1231546));
