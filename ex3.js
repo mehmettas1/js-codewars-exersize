@@ -30,26 +30,15 @@
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
 
-// function summation(num) {
-//     let total = 0;
-//     for (let i = 1; i <= num; i++) {
-//         total += i;
-//     }
-//     return total;
-// }
-
-// Test verileri
-// console.log(summation(2)); // 3
-// console.log(summation(8)); // 36
-
-
-function meta(num) {
+function summation(num) {
     let total = 0;
-    for(let i =0;i<=num;i++) {
-        total +=i;
+    for (let i = 1; i <= num; i++) {
+        total += i;
     }
-
     return total;
 }
+ 
+console.log(summation(2)); // 3
+console.log(summation(8)); // 36
 
-console.log(meta(121123))
+
