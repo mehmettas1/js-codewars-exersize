@@ -58,3 +58,16 @@ function seta(e) {
 return result
 }
 console.log(seta(1231546));
+////****************************/ */
+
+function calculateAverage(nums) {
+  if (nums.length === 0) {
+      return 0; 
+  }
+  
+  const sum = nums.reduce((total, num) => total + num, 0);
+  return sum / nums.length;
+}
+const numbers = [5, 10, 15, 20];
+const average = calculateAverage(numbers);
+console.log(`Ortalama: ${average}`);
