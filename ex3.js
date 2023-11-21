@@ -66,23 +66,13 @@ function calculateAverage(nums) {
   }
 
   let sum =0;
-  for(let i=0;i<nums.lenght ; i++){
+  for(let i=0;i<nums.length ; i++){
     sum += nums[i]
 
   }
-    return sum / nums.lenght
+    return sum / nums.length
 }
-// function calculateAverage(nums) {
-//   if (nums.length === 0) {
-//       return 0;
-//   }
-
-//   let sum = 0;
-//   for (let i = 0; i < nums.length; i++) {
-//       sum += nums[i];
-//   }
-//   return sum / nums.length;
-// }
+ 
 
 
 const numbers = [5, 10, 15, 20,50];
