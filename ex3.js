@@ -28,16 +28,16 @@
 // 2 -> 3 (1 + 2)
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
-function summation(num) {
-  let total = 0;
-  for (let i = 1; i <= num; i++) {
-    total += i;
-  }
-  return total;
-}
+// function summation(num) {
+//   let total = 0;
+//   for (let i = 1; i <= num; i++) {
+//     total += i;
+//   }
+//   return total;
+// }
 
-console.log(summation(2)); // 3
-console.log(summation(8)); // 36
+// console.log(summation(2)); // 3
+// console.log(summation(8)); // 36
 
 // 3)  Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
@@ -59,22 +59,30 @@ console.log(summation(8)); // 36
 // }
 // console.log(seta(1231546));
 ////****************************/ */
-// 4)
-function calculateAverage(nums) {
-  if(nums.lenght ===0) {
-    return 0;
-  }
+// 4) soru
+// function calculateAverage(nums) {
+//   if(nums.lenght ===0) {
+//     return 0;
+//   }
 
-  let sum =0;
-  for(let i=0;i<nums.length ; i++){
-    sum += nums[i]
+//   let sum =0;
+//   for(let i=0;i<nums.length ; i++){
+//     sum += nums[i]
 
-  }
-    return sum / nums.length
-}
+//   }
+//     return sum / nums.length
+// }
  
 
 
-const numbers = [5, 10, 15, 20,50];
-const average = calculateAverage(numbers);
-console.log(`Ortalama: ${average}`);
+// const numbers = [5, 10, 15, 20,50];
+// const average = calculateAverage(numbers);
+// console.log(`Ortalama: ${average}`);
+
+
+
+
+
+///************************************************5.SORU *****************************/
+
+
