@@ -48,26 +48,43 @@ console.log(summation(8)); // 36
 
 // Input: 123456789 Output: 987654321
 
-function seta(e) {
-    let digit = e.toString().split("")
+// function seta(e) {
+//     let digit = e.toString().split("")
 
-    let sortDigit = digit.sort((a,b)=>parseInt(b)-parseInt(a));
+//     let sortDigit = digit.sort((a,b)=>parseInt(b)-parseInt(a));
 
-    let result = parseInt(sortDigit.join(""))
+//     let result = parseInt(sortDigit.join(""))
 
-return result
-}
-console.log(seta(1231546));
+// return result
+// }
+// console.log(seta(1231546));
 ////****************************/ */
-
+// 4)
 function calculateAverage(nums) {
-  if (nums.length === 0) {
-      return 0; 
+  if(nums.lenght ===0) {
+    return 0;
   }
-  
-  const sum = nums.reduce((total, num) => total + num, 0);
-  return sum / nums.length;
+
+  let sum =0;
+  for(let i=0;i<nums.lenght ; i++){
+    sum += nums[i]
+
+  }
+    return sum / nums.lenght
 }
-const numbers = [5, 10, 15, 20];
+// function calculateAverage(nums) {
+//   if (nums.length === 0) {
+//       return 0;
+//   }
+
+//   let sum = 0;
+//   for (let i = 0; i < nums.length; i++) {
+//       sum += nums[i];
+//   }
+//   return sum / nums.length;
+// }
+
+
+const numbers = [5, 10, 15, 20,50];
 const average = calculateAverage(numbers);
 console.log(`Ortalama: ${average}`);
