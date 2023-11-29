@@ -85,4 +85,4 @@
 
 ///************************************************5.SORU *****************************/
 
-
+❓1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
