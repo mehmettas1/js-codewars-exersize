@@ -86,3 +86,4 @@
 ///************************************************5.SORU *****************************/
 
 // ❓1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
+// ❓2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
