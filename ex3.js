@@ -113,8 +113,14 @@ const findNumber = numbers.find(function(number) {
 })
 emptyArray.push(findNumber)
 
-const numbersFill = numbers.fill(0.9,2)
+//const numbersFill = numbers.fill(0.9,2)
 
+//  numbers.unshift(1,2)
+// const spliceNumber = numbers.splice(2,3)
+// const popNumbers = numbers.pop(21)
+
+const toStringNumbers = numbers.toString()
+const arrayToString = toStringNumbers.split(' ') 
 
 console.log( `max number: ${max}` ,"+", `min number: ${min}`,reverse);
 console.log("sortNumbers",sortNumbers);
@@ -122,4 +128,9 @@ console.log("filterNumbers:",filterNumbers);
 console.log("reduceNumber:",reduceNumber);
 console.log("findNumber :", findNumber);
 console.log("empty array push :" ,emptyArray);
-console.log("numbers array add fill :" ,numbersFill);
+// console.log("numbers array add fill :" ,numbersFill);
+// console.log(popNumbers);
+console.log(numbers);
+console.log(toStringNumbers);
+console.log(arrayToString);
+// console.log(spliceNumber);
