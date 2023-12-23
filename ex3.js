@@ -83,7 +83,7 @@
 
 
 
-///************************************************5.SORU *****************************/
+///************************************************5.SORU ARRAY METHODS*****************************/
 
 // 1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
 // 2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
@@ -94,12 +94,28 @@ let min = Math.min(...numbers)
 let reverse = numbers.reverse()
 let sortNumbers = numbers.sort(function(a,b) {
     return b-a
-})
+}) // sıralama yapaar
+
+
 numbers.push(2157)
- const filterNumbers = numbers.filter(function(number) {
+
+const filterNumbers = numbers.filter(function(number) {
     return number>40
- })
+ }) // filtreleleme yapar
+ 
+const reduceNumber = numbers.reduce(function (item1,item2) {
+    return item1+item2
+}) //toplama yapar
+
+
+const findNumber = numbers.find(function(number) {
+    return number >40
+})
+
+
 
 console.log( `max number: ${max}` ,"+", `min number: ${min}`,reverse);
 console.log(sortNumbers);
 console.log(filterNumbers);
+console.log(reduceNumber);
+console.log("findNumber :", findNumber);
