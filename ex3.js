@@ -85,5 +85,15 @@
 
 ///************************************************5.SORU *****************************/
 
-// ❓1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
-// ❓2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
+// 1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
+// 2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
+
+let numbers = [4, 15, 8, 23, 42, 16];
+let max = Math.max(...numbers)
+let min = Math.min(...numbers)
+let reverse = numbers.reverse()
+let sortNumbers = numbers.sort(function(a,b) {
+    return b-a
+})
+console.log( `max number: ${max}` ,"+", `min number: ${min}`,reverse);
+console.log(sortNumbers);
