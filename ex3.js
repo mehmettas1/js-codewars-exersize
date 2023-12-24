@@ -136,9 +136,9 @@
 // // console.log(spliceNumber);
 
 
-let sentence = "Merhaba Dünya!";
+// let sentence = "Merhaba Dünya!";
 
-let joinContext = sentence.split('').reverse().join('');
-let meta = joinContext.split(' ').join('-')
-console.log(joinContext);
-console.log(meta);
+// let joinContext = sentence.split('').reverse().join('');
+// let meta = joinContext.split(' ').join('-')
+// console.log(joinContext);
+// console.log(meta);
