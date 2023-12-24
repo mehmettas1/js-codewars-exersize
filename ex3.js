@@ -85,60 +85,60 @@
 
 ///************************************************5.SORU ARRAY METHODS*****************************/
 
-// 1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
-// 2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
-// let emptyArray = [];
-// let numbers = [4, 15, 8, 23, 42, 16];
-// let max = Math.max(...numbers)
-// let min = Math.min(...numbers)
-// let reverse = numbers.reverse()
-// let sortNumbers = numbers.sort(function(a,b) {
-//     return b-a
-// }) // sıralama yapaar
+1 let sentence = "Merhaba Dünya!"; şeklinde bir cümle verilmiştir. Bu cümleyi tersine çevirin ve kelimeler arasındaki boşlukları “_” karakteri ile değiştirin.
+2 numbers = [4, 15, 8, 23, 42, 16]; dizisindeki en küçük ve en büyük sayıyı bulun ve bu iki sayıyı, örneğin: “min: 3, max: 21” şeklinde döndürün
+let emptyArray = [];
+let numbers = [4, 15, 8, 23, 42, 16];
+let max = Math.max(...numbers)
+let min = Math.min(...numbers)
+let reverse = numbers.reverse()
+let sortNumbers = numbers.sort(function(a,b) {
+    return b-a
+}) // sıralama yapaar
 
  
-// numbers.push(2157)
+numbers.push(2157)
 
-// const filterNumbers = numbers.filter(function(number) {
-//     return number>40
-//  }) // filtreleleme yapar
+const filterNumbers = numbers.filter(function(number) {
+    return number>40
+ }) // filtreleleme yapar
  
-// const reduceNumber = numbers.reduce(function (item1,item2) {
-//     return item1+item2
-// }) //toplama yapar
+const reduceNumber = numbers.reduce(function (item1,item2) {
+    return item1+item2
+}) //toplama yapar
 
 
-// const findNumber = numbers.find(function(number) {
-//     return number >40
-// })
-// emptyArray.push(findNumber)
+const findNumber = numbers.find(function(number) {
+    return number >40
+})
+emptyArray.push(findNumber)
 
-// //const numbersFill = numbers.fill(0.9,2)
+//const numbersFill = numbers.fill(0.9,2)
 
-// //  numbers.unshift(1,2)
-// // const spliceNumber = numbers.splice(2,3)
-// // const popNumbers = numbers.pop(21)
+//  numbers.unshift(1,2)
+// const spliceNumber = numbers.splice(2,3)
+// const popNumbers = numbers.pop(21)
 
-// const toStringNumbers = numbers.toString()
-// const arrayToString = toStringNumbers.split(' ') 
+const toStringNumbers = numbers.toString()
+const arrayToString = toStringNumbers.split(' ') 
 
-// console.log( `max number: ${max}` ,"+", `min number: ${min}`,reverse);
-// console.log("sortNumbers",sortNumbers);
-// console.log("filterNumbers:",filterNumbers);
-// console.log("reduceNumber:",reduceNumber);
-// console.log("findNumber :", findNumber);
-// console.log("empty array push :" ,emptyArray);
-// // console.log("numbers array add fill :" ,numbersFill);
-// // console.log(popNumbers);
-// console.log(numbers);
-// console.log(toStringNumbers);
-// console.log(arrayToString);
-// // console.log(spliceNumber);
+console.log( `max number: ${max}` ,"+", `min number: ${min}`,reverse);
+console.log("sortNumbers",sortNumbers);
+console.log("filterNumbers:",filterNumbers);
+console.log("reduceNumber:",reduceNumber);
+console.log("findNumber :", findNumber);
+console.log("empty array push :" ,emptyArray);
+// console.log("numbers array add fill :" ,numbersFill);
+// console.log(popNumbers);
+console.log(numbers);
+console.log(toStringNumbers);
+console.log(arrayToString);
+// console.log(spliceNumber);
 
 
-// let sentence = "Merhaba Dünya!";
+let sentence = "Merhaba Dünya!";
 
-// let joinContext = sentence.split('').reverse().join('');
-// let meta = joinContext.split(' ').join('-')
-// console.log(joinContext);
-// console.log(meta);
+let joinContext = sentence.split('').reverse().join('');
+let meta = joinContext.split(' ').join('-')
+console.log(joinContext);
+console.log(meta);
