@@ -3,15 +3,22 @@
 let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 function sum(numbers) {
-  let sum =0;
-    for(let i=0;i<numbers.length ; i++){
-      sum += numbers[i]
+
+let toplama = 0;
+
+for (let i = 0; i < numbers.length; i++) {
+  if(numbers[i] % 2 ==0) {
+    
+    toplama += numbers[i];
+  }
   
-    }
-      return sum 
+  
+}
+return toplama
+
 }
 
-const meta = sum(numbers)
+const meta = sum(numbers);
 
 console.log(meta);
 
