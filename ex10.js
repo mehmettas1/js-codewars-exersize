@@ -9,15 +9,15 @@
 // console.log(yeniFiyatlar);
 
 
-const fiyatlar  = [100,250 ,50 ,89,555,650];
+// const fiyatlar  = [100,250 ,50 ,89,555,650];
 
-const yeniFiyatlar = fiyatlar.map((deger,index)=>{
-  const yeniDeger = deger+deger*10/100;
-  console.log(`${index}  ${deger} ==> yeni değeri ${yeniDeger}`)
-  return yeniDeger
-})
+// const yeniFiyatlar = fiyatlar.map((deger,index)=>{
+//   const yeniDeger = deger+deger*10/100;
+//   console.log(`${index}  ${deger} ==> yeni değeri ${yeniDeger}`)
+//   return yeniDeger
+// })
 
-console.log(yeniFiyatlar);
+// console.log(yeniFiyatlar);
 
 
  
