@@ -1,1 +1,1 @@
-# js-exersize
+# js-codewars-exersize
