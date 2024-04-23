@@ -1,8 +1,15 @@
-export const userValidation = (str)=> {
-    if
+export const userValidation = (str) => {
+    if (
+        str.length >= 4 && str.length <= 25
+    ) {
+        return true
+    } else {
+        return false
+    }
 
 }
 
+// rules
 
 // 1. The username is between 4 and 25 characters.
 // 2. It must start with a letter.
