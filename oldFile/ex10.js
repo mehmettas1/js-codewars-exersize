@@ -67,7 +67,7 @@
 //   let text = "ata";
 //   let part = text.split("").reverse().join("");
 //   const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
-  //let part2 = part.trim();
+//let part2 = part.trim();
 //   let meta = part.length
 //   let meta2 = part2.length
 //   let meta3 = text.length
@@ -82,8 +82,18 @@
 //   return str;
 // };
 // isPalindrome("mehmet");
-const sum = (a,b)=>{
-  
-  return a+b
-}
-console.log(sum(5, 6));
+// const sum = (a,b)=>{
+
+//   return a+b
+// }
+// console.log(sum(5, 6));
+
+const simpleAdding = (num) => {
+  let result = 1;
+  for (let i = 1; i <= num; i++) {
+    result *= i;
+  }
+  return result
+};
+console.log("mehmet");
+console.log(simpleAdding(3));
